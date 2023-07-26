@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <p>{{>header}} </p>
+
+<div class="weather-info container">
+    <h2 class="py-3">Current Weather Details</h2>
+    <p class="lead">Latitude is : {{lat}}</p>
+    <p class="lead">Longitude is : {{lon}}</p>
+    <p class="lead">Country is: {{country}}</p>
+    <p class="lead">Weather descriptions : {{desc}}</p>
+    <p class="lead">Temperature : {{temp}}&deg;</p>
+</div> <!-- weather-info -->
+
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
